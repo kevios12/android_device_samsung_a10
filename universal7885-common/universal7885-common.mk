@@ -243,7 +243,8 @@ PRODUCT_PACKAGES += \
     
 # Notch
 PRODUCT_PACKAGES += \
-    NotchBarKiller
+    NotchBarKiller \
+    VShapedNotch
 
 # RIL
 PRODUCT_PACKAGES += \

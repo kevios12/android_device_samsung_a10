@@ -81,6 +81,9 @@ include device/samsung/universal7885-common/configs/props/props.mk
 BOARD_HAS_DOWNLOAD_MODE := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/recovery.fstab
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
